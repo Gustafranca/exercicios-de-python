@@ -1,3 +1,6 @@
+#Escreva um  rpograma que converta segundos em horas , minutos e segundos
+#Exemplo de execução: input: 3850
+#                     output: 1h 4min 10s  
 time = int(input('Digite o valor do tempo em segundos: '))
 hours = time // 3600
 seconds_left = time - (hours*3600)
